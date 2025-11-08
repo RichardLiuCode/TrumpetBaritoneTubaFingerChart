@@ -2,181 +2,260 @@
 <html>
 
 <head>
-    <title>Finger Chart</title>
+    <title> Finger Chart </title>
     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="This is a fingery chart for trumpet, baritone and tuba">
+    <script defer src="https://richardliucode.github.io/richardcode/RichardJS/footer.js"></script>
 </head>
 
 <body>
-    <table id="chart">
-        <tr>
-            <th>Name</th>
-            <th>Fingery</th>
-        </tr>
-        <tr>
-            <td> F# </td>
-            <td> ●●● </td>
-        </tr>
-        <tr>
-            <td> G♭ </td>
-            <td> ●●● </td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>●○●</td>
-        </tr>
-        <tr>
-            <td>G#</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>A♭</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>A</td>
-            <td>●●○</td>
-        </tr>
-        <tr>
-            <td>A#</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>B♭</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>B</td>
-            <td>○●○</td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td>○○○</td>
-        </tr>
-        <tr>
-            <td>C#</td>
-            <td>●●●</td>
-        </tr>
-        <tr>
-            <td>D♭</td>
-            <td>●●●</td>
-        </tr>
-        <tr>
-            <td>D</td>
-            <td>●○●</td>
-        </tr>
-        <tr>
-            <td>D#</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>E♭</td>
-            <td>○●●</td>
-        </tr>
-        <tr>
-            <td>E</td>
-            <td>●●○</td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td>●○○</td>
-        </tr>
-        <tr>
-            <td>F#</td>
-            <td>○●○</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>○●○</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>○○○</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>A</td>
-            <td>●●○</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>B</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>D</td>
-            <td>●○○</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>E</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>F</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>F#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>G♭</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>G#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>A♭</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>A</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>A#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>B♭</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>B</td>
-            <td>○●○</td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td>○○○</td>
-        </tr>
-    </table>
+    <h1 style="font-family:arial;">Fingery chart for trumpet, baritone and tuba</h1>
+    <br>
+    <div style="text-align:left;width:480px;margin:0 auto;">
+        <p style="font-family:arial;text-align:left;">
+            <span>○ = Open</span>
+            <br>
+            <span>● = Press Down</span>
+        </p>
+    </div>
+    <br>
+    <div style="width:100%;margin:0 auto;display:flex;justify-content:center;">
+        <table id="chart">
+            <tr>
+                <th> Ocative</th>
+                <th> Name </th>
+                <th> Fingery </th>
+                <th> Type </th>
+            </tr>
+            <tr class="sharpRow">
+                <td class="ocatives" rowspan="9">Lower Ocative</td>
+                <td> F# </td>
+                <td> ●●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> G♭ </td>
+                <td> ●●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> G </td>
+                <td> ●○● </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> G# </td>
+                <td> ○●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> A♭ </td>
+                <td> ○●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> A </td>
+                <td> ●●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> A# </td>
+                <td> ○●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> B♭ </td>
+                <td> ○●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> B </td>
+                <td> ○●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="naturalRow">
+                <td class="ocatives" rowspan="17">Normal Ocative</td>
+                <td> C </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> C# </td>
+                <td> ●●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> D♭ </td>
+                <td> ●●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> D </td>
+                <td> ●○● </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> D# </td>
+                <td> ○●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> E♭ </td>
+                <td> ○●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> E </td>
+                <td> ●●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> F </td>
+                <td> ●○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> F# </td>
+                <td> ○●○ </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> G♭ </td>
+                <td> ○●○ </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> G </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> G# </td>
+                <td> ○●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> A♭ </td>
+                <td> ○●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> A </td>
+                <td> ●●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> A# </td>
+                <td> ●○○ </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> B♭ </td>
+                <td> ●○○ </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> B </td>
+                <td> ○●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="naturalRow">
+                <td class="ocatives" rowspan="18">Higher Ocative</td>
+                <td> C </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> C# </td>
+                <td> ●●○ </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> D♭ </td>
+                <td> ●●○ </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> D </td>
+                <td> ●○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> D# </td>
+                <td> ○●○ </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> E♭ </td>
+                <td> ○●○ </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> E </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> F </td>
+                <td> ●○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> F# </td>
+                <td> ●○● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> G♭ </td>
+                <td> ●○● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> G </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> G# </td>
+                <td> ○●● </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> A♭ </td>
+                <td> ○●● </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> A </td>
+                <td> ●●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="sharpRow">
+                <td> A# </td>
+                <td> ●○○ </td>
+                <td> Sharp </td>
+            </tr>
+            <tr class="flatRow">
+                <td> B♭ </td>
+                <td> ●○○ </td>
+                <td> Flat </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> B </td>
+                <td> ○●○ </td>
+                <td> Natural </td>
+            </tr>
+            <tr class="naturalRow">
+                <td> C </td>
+                <td> ○○○ </td>
+                <td> Natural </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
